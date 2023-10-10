@@ -8,11 +8,8 @@ function cal() {
   return bmi;
 }
 
-function text(bmi){
-  const text1 = "Your BMI is"
-  const text2 = "."
-  const together = `${text1} ${bmi}` + text2
-  console.log(together)
+function text(bmi) {
+  console.log("Your BMI is", bmi, "kg/msq.");
 }
 
 function evaluation(x) {
