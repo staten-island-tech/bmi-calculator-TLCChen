@@ -30,6 +30,9 @@ html, body, *{
 
 }
 
+h1{
+  text-align: center;
+}
 .box, .box3, .box4{
   margin: 1rem auto;
   display: flex;
